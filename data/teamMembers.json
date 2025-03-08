@@ -4,21 +4,21 @@
         "id": 1,
         "name": "María Pérez",
         "position": "Directora Ejecutiva",
-        "image": "teamMember1.jpg",
+        "image": "/team/gary.jpg",
         "description": "María lidera nuestra organización con más de 20 años de experiencia en el sector social."
       },
       {
         "id": 2,
         "name": "Juan López",
         "position": "Coordinador de Proyectos",
-        "image": "teamMember2.jpg",
+        "image": "/team/romelo.jpg",
         "description": "Juan es responsable de la planificación y ejecución de nuestros proyectos comunitarios."
       },
       {
         "id": 3,
         "name": "Karla García",
         "position": "Comunicadora",
-        "image": "teamMember3.jpg",
+        "image": "/team/vitaly.jpg",
         "description": "Karla maneja nuestras comunicaciones y relaciones públicas, asegurando que nuestra voz sea escuchada."
       }
     ]

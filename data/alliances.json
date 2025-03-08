@@ -1,0 +1,28 @@
+[
+    {
+      "id": 1,
+      "icon": "/alianzas/Cocacola.jpg",
+      "title": "Coca Cola"
+    },
+    {
+      "id": 2,
+      "icon": "/alianzas/Redbull.jpg",
+      "title": "Red Bull"
+    },
+    {
+      "id": 3,
+      "icon": "/alianzas/Nesquik.jpg",
+      "title": "Nesquik"
+    },
+    {
+      "id": 4,
+      "icon": "/alianzas/Amazon.jpg",
+      "title": "Amazon"
+    },
+    {
+      "id": 5,
+      "icon": "/alianzas/Universidad.jpg",
+      "title": "Universidad de Bogotá"
+    }
+  ]
+  
