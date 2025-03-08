@@ -25,7 +25,7 @@ export default function Cta() {
           Cada donación, por pequeña que sea, contribuye a crear espacios inclusivos donde el arte y la cultura transforman vidas.
         </p>
         <Link 
-          href="#" 
+          href="/donate" 
           className="inline-block px-8 py-3 bg-[var(--accent-color)] text-white font-bold uppercase rounded-full transition-all duration-300 hover:bg-[var(--accent-color-2)]"
         >
           Dona Ahora
