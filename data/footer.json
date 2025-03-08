@@ -1,0 +1,21 @@
+{
+    "contactInfo": [
+      { "icon": "MapPin", "text": "Calle Principal #123, Manizales, Colombia" },
+      { "icon": "Phone", "text": "+57 (123) 456-7890" },
+      { "icon": "Mail", "text": "info@fundaciondesdemiraiz.org" }
+    ],
+    "quickLinks": [
+      { "name": "Desde mi raíz", "href": "#" },
+      { "name": "Que hacemos", "href": "#" },
+      { "name": "Programate", "href": "#" },
+      { "name": "Donar", "href": "#" }
+    ],
+    "services": [
+      "Consultoría",
+      "Desarrollo",
+      "Diseño",
+      "Marketing",
+      "Soporte"
+    ]
+}
+  

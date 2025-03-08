@@ -1,0 +1,43 @@
+{
+    "mobileNavItems": [
+      { "id": 1, "name": "Inicio", "href": "/" },
+      { "id": 2, "name": "Desde mi raíz", "href": "/about" },
+      { "id": 3, "name": "Que hacemos", "href": "/what-we-do" },
+      { "id": 4, "name": "Programate", "href": "/programs" },
+      { "id": 5, "name": "Donar", "href": "/donate" }
+    ],
+    "desktopNavItems": [
+      { "id": 1, "name": "Inicio", "href": "/" },
+      { 
+        "id": 2, 
+        "name": "Desde mi raíz", 
+        "href": "/about",
+        "dropdown": [
+          { "id": "about-1", "name": "Misión y Visión", "href": "/about#mission" },
+          { "id": "about-2", "name": "Valores", "href": "/about#values" },
+          { "id": "about-3", "name": "Fundador", "href": "/about#founder" }
+        ]
+      },
+      { 
+        "id": 3, 
+        "name": "Que hacemos", 
+        "href": "/what-we-do",
+        "dropdown": [
+          { "id": "work-1", "name": "Raices que conectan", "href": "#" },
+          { "id": "work-2", "name": "Casos de Éxito", "href": "#" },
+          { "id": "work-3", "name": "Publicaciones", "href": "#" }
+        ]
+      },
+      { 
+        "id": 4, 
+        "name": "Programate", 
+        "href": "/programs",
+        "dropdown": [
+          { "id": "proj-1", "name": "Proyecto 2024", "href": "#" },
+          { "id": "proj-2", "name": "Proyecto 2023", "href": "#" },
+          { "id": "proj-3", "name": "Archivo", "href": "#" }
+        ]
+      },
+      { "id": 5, "name": "Donar", "href": "/donate" }
+    ]
+  } 
