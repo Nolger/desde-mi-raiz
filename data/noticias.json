@@ -1,0 +1,37 @@
+{
+    "noticias": [
+      {
+        "id": 1,
+        "fecha": "Jueves, 20 Febrero, 2025",
+        "titulo": "Justicia social para un mundo más equitativo",
+        "descripcion": "Día Mundial de la Justicia social, 20 de febrero de 2025.",
+        "imagen": "/news/img1.jpeg",
+        "url": "/noticias/1"
+      },
+      {
+        "id": 2,
+        "fecha": "Martes, 18 Febrero, 2025",
+        "titulo": "La prosperidad compartida, clave para una sociedad más justa y solidaria",
+        "descripcion": "Según la encuesta elaborada por Manos Unidas.",
+        "imagen": "/news/img2.jpeg",
+        "url": "/noticias/2"
+      },
+      {
+        "id": 3,
+        "fecha": "Miércoles, 12 Febrero, 2025",
+        "titulo": "Con la mirada puesta en quienes claman por una vida más digna",
+        "descripcion": "Homilía de Mons. Álvarez en la Jornada Nacional de Manos Unidas.",
+        "imagen": "/news/img3.jpeg",
+        "url": "/noticias/3"
+      },
+      {
+        "id": 4,
+        "fecha": "Lunes, 10 Febrero, 2025",
+        "titulo": "La minería y el cuidado de la Casa Común",
+        "descripcion": "Manos Unidas acogió un coloquio sobre la minería en América Latina.",
+        "imagen": "/news/img4.jpg",
+        "url": "/noticias/4"
+      }
+    ]
+  }
+  

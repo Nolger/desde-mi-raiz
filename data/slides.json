@@ -1,0 +1,40 @@
+{
+    "slides": [
+      {
+        "image": "/hero/img1.jpeg",
+        "title": "Fortaleciendo nuestras raíces, construyendo nuestro futuro",
+        "description": "Trabajamos junto a comunidades indígenas para preservar su cultura y mejorar su calidad de vida con proyectos sostenibles.",
+        "buttonText": "CONOCE NUESTRA MISIÓN"
+      },
+      {
+        "image": "/hero/img2.jpeg",
+        "title": "Educación para el cambio",
+        "description": "Impulsamos programas educativos que promueven el conocimiento ancestral y el desarrollo profesional de los jóvenes indígenas.",
+        "buttonText": "DESCUBRE NUESTROS PROYECTOS"
+      },
+      {
+        "image": "/hero/img3.jpeg",
+        "title": "Soberanía alimentaria y desarrollo sostenible",
+        "description": "Apoyamos a las comunidades en la producción de alimentos saludables, respetando la tierra y sus tradiciones.",
+        "buttonText": "APOYA NUESTRA CAUSA"
+      },
+      {
+        "image": "/hero/img4.jpg",
+        "title": "Salud y bienestar para todos",
+        "description": "Facilitamos el acceso a servicios médicos y promovemos la medicina tradicional indígena para un bienestar integral.",
+        "buttonText": "ÚNETE A NUESTRA INICIATIVA"
+      },
+      {
+        "image": "/hero/img5.jpg",
+        "title": "Voces que inspiran",
+        "description": "Damos espacio a líderes indígenas para compartir su historia y defender sus derechos en el ámbito nacional e internacional.",
+        "buttonText": "ESCUCHA SUS HISTORIAS"
+      },
+      {
+        "image": "/hero/img6.jpg",
+        "title": "Conservación de nuestra Madre Tierra",
+        "description": "Protegemos los ecosistemas donde habitan las comunidades indígenas, promoviendo el respeto y el equilibrio con la naturaleza.",
+        "buttonText": "PARTICIPA EN NUESTRAS ACCIONES"
+      }
+    ]
+  }
