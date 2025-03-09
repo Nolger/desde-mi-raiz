@@ -1,4 +1,5 @@
 import noticiasData from '@/data/noticias.json';
+import { Button } from "@/components/ui/button";
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -52,7 +53,7 @@ export default function News() {
           href="/noticias"
           className="inline-block bg-[var(--accent-color)] text-white px-8 py-2 rounded-lg hover:bg-[var(--accent-color-2)] transition-colors duration-300"
         >
-          VER MÁS
+          <Button className='cursor-pointer' variant="link">VER MÁS</Button>
         </Link>
       </div>
     </section>

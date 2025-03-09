@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { Button } from "@/components/ui/button";
 
 export default function Cta() {
   return (
@@ -24,11 +25,8 @@ export default function Cta() {
         <p className="text-xl max-w-[800px] mx-auto mb-8">
           Cada donación, por pequeña que sea, contribuye a crear espacios inclusivos donde el arte y la cultura transforman vidas.
         </p>
-        <Link 
-          href="/donate" 
-          className="inline-block px-8 py-3 bg-[var(--accent-color)] text-white font-bold uppercase rounded-full transition-all duration-300 hover:bg-[var(--accent-color-2)]"
-        >
-          Dona Ahora
+        <Link href="/donate" >
+          <Button className='cursor-pointer font-bold' size="lg">Dona Ahora</Button>
         </Link>
       </div>
     </section>

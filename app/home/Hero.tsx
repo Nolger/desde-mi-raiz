@@ -2,6 +2,7 @@
 import slidesData from '@/data/slides.json';
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
+import { Button } from "@/components/ui/button";
 
 export default function Hero() {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -16,7 +17,6 @@ export default function Hero() {
   
     return (
       <div className="relative h-[600px] w-full overflow-hidden">
-        {/* Hero Background */}
         {slidesData.slides.map((slide, index) => (
           <div
             key={index}
@@ -46,9 +46,9 @@ export default function Hero() {
             {slidesData.slides[currentSlide].description}
           </p>
           {slidesData.slides[currentSlide].buttonText && (
-            <button className="px-8 py-3 text-sm font-semibold text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-colors animate-fade-in self-start">
+            <Button className="cursor-pointer py-3 text-sm font-semibold text-white self-start">
               {slidesData.slides[currentSlide].buttonText}
-            </button>
+            </Button>
           )}
         </div>
   

@@ -5,10 +5,10 @@
       { "icon": "Mail", "text": "info@fundaciondesdemiraiz.org" }
     ],
     "quickLinks": [
-      { "name": "Desde mi raíz", "href": "#" },
-      { "name": "Que hacemos", "href": "#" },
-      { "name": "Programate", "href": "#" },
-      { "name": "Donar", "href": "#" }
+      { "name": "Desde mi raíz", "href": "/about" },
+      { "name": "Que hacemos", "href": "/what-we-do" },
+      { "name": "Programate", "href": "/programs" },
+      { "name": "Donar", "href": "/donate" }
     ],
     "services": [
       "Consultoría",
