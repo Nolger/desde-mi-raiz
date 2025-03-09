@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/Button";
+import { Button } from "@/components/ui/button";
 import { Download, Send, Trash, Plus, Check, X } from "lucide-react"
 
 export default function ProgramsPage() {

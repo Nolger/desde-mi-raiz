@@ -2,38 +2,39 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Heart, Users, Target, Globe, ArrowRight } from "lucide-react"
+import Link from "next/link"
 
 export default function DesdeMiRaiz() {
   return (
     <main className="min-h-screen">
       {/* Hero Section - Misión y Visión */}
-      <section className="relative h-[600px] flex items-center justify-center text-white">
-        <div className="absolute inset-0 bg-[#14587f] opacity-90 z-0" />
+      <section className="relative min-h-[500px] md:h-[600px] w-full">
         <Image
-          src="/placeholder.svg?height=600&width=1920"
+          src="/backgroudAbout.jpg"
           alt="Background"
           fill
-          className="object-cover -z-10"
           priority
+          className="object-cover opacity-20"
+          sizes="100vw"
         />
-        <div className="container mx-auto px-4 z-10 space-y-8">
-          <div className="max-w-3xl mx-auto text-center space-y-6">
-            <h1 className="text-4xl md:text-5xl font-bold">Desde Mi Raíz</h1>
-            <p className="text-xl md:text-2xl">
+        <div className="absolute inset-0 bg-black/80" />
+        <div className="relative h-full container mx-auto px-4 py-12 md:py-0 flex items-center justify-center">
+          <div className="max-w-3xl w-full text-center space-y-6 p-6 md:p-12 text-white">
+            <h1 className="text-3xl md:text-5xl font-bold">Desde Mi Raíz</h1>
+            <p className="text-lg md:text-2xl">
               Impulsamos programas educativos que promueven el conocimiento ancestral y el desarrollo profesional de los
               jóvenes indígenas.
             </p>
-            <div className="grid md:grid-cols-2 gap-6 mt-8">
-              <div className="bg-white/10 p-6 rounded-lg backdrop-blur-sm">
-                <h2 className="text-2xl font-bold mb-4">Misión</h2>
-                <p>
-                  Preservar y promover el conocimiento ancestral mientras facilitamos el acceso a la educación moderna
-                  para las comunidades indígenas.
+            <div className="grid md:grid-cols-2 gap-4 md:gap-6 mt-6 md:mt-8">
+              <div className="p-4 md:p-6 rounded-lg">
+                <h2 className="text-xl md:text-2xl font-bold mb-2 md:mb-4">Misión</h2>
+                <p className="text-sm md:text-base">
+                  Tenemos como propósito liderar una transformación social significativa al unir a las comunidades a través del poder del arte, la cultura y la música.
                 </p>
               </div>
-              <div className="bg-white/10 p-6 rounded-lg backdrop-blur-sm">
-                <h2 className="text-2xl font-bold mb-4">Visión</h2>
-                <p>
+              <div className="p-4 md:p-6 rounded-lg">
+                <h2 className="text-xl md:text-2xl font-bold mb-2 md:mb-4">Visión</h2>
+                <p className="text-sm md:text-base">
                   Ser un puente entre la sabiduría ancestral y las oportunidades del mundo moderno, creando líderes que
                   honren sus raíces.
                 </p>
@@ -46,7 +47,19 @@ export default function DesdeMiRaiz() {
       {/* Valores */}
       <section className="py-20 bg-[#959d98]/10" id="values">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Nuestros Valores</h2>
+          <h2 className="text-3xl font-bold text-center mb-10">Nuestros Valores</h2>
+          <p className="max-w-6xl mx-auto text-center my-12">
+              El amor, al igual que un árbol, no surge de la nada; Necesita una base sólida para crecer, florecer y res.
+              La compasión no es solo un sentimiento humano; la naturaleza la expresa de manera poderosa. los árboles se 
+              comunican a través de sus raíces sosteniendo a quienes lo necesitan . En el bosque, los árboles no compiten
+              por imponerse unos sobre otros; en cambio, crecen respetando los límites de sus vecinos. Sus ramas no se 
+              entrelazan de manera agresiva, sino que dejan espacio para que cada uno reciba su propia luz. De la misma 
+              manera, el respeto en nuestras vidas implica dar espacio al otro sin invadir, reconocer sin imponer y 
+              convivir sin opacar . Cada árbol majestuoso comienza siendo solo una semilla enterrada en la oscuridad de 
+              la tierra. Sin embargo, dentro de ella yace la promesa de la vida, esperando el momento adecuado para 
+              brotar. Así es la esperanza: invisible en los momentos difíciles, pero siempre presente, lista para florecer 
+              cuando se le da el cuidado necesario .
+            </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               {
@@ -84,8 +97,13 @@ export default function DesdeMiRaiz() {
       <section className="py-20" id="founder">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="relative h-[400px] rounded-lg overflow-hidden">
-              <Image src="/placeholder.svg?height=400&width=600" alt="Fundador" fill className="object-cover" />
+            <div className="relative h-[300px] md:h-[600px] w-full md:w-[400px] rounded-lg overflow-hidden mx-auto">
+              <Image 
+                src="/fundadora.png" 
+                alt="Fundador" 
+                fill 
+                className="object-cover object-top" 
+              />
             </div>
             <div className="space-y-6">
               <h2 className="text-3xl font-bold">Nuestro Fundador</h2>
@@ -98,9 +116,11 @@ export default function DesdeMiRaiz() {
                 Su trabajo ha impactado positivamente a más de 50 comunidades en toda Latinoamérica, estableciendo
                 programas educativos que respetan y preservan las tradiciones locales.
               </p>
-              <Button variant="outline" className="mt-4">
-                Conoce más sobre nuestra historia
-                <ArrowRight className="ml-2 h-4 w-4" />
+              <Button variant="outline" className="mt-4" asChild>
+                <Link href="/about/founder">
+                  Conoce más sobre su historia
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
               </Button>
             </div>
           </div>

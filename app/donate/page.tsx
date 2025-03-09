@@ -117,8 +117,8 @@ export default function DonarPage() {
             </div>
             <div>
               <p className="italic mb-2">
-                "Gracias a las donaciones, pude completar mi formación en artes tradicionales y ahora enseño a los niños
-                de mi comunidad, manteniendo vivas nuestras tradiciones."
+                &quot;Gracias a las donaciones, pude completar mi formación en artes tradicionales y ahora enseño a los niños
+                de mi comunidad, manteniendo vivas nuestras tradiciones.&quot;
               </p>
               <p className="font-semibold">María Hernández</p>
               <p className="text-sm text-muted-foreground">Comunidad Wayuu</p>
@@ -133,8 +133,8 @@ export default function DonarPage() {
             </div>
             <div>
               <p className="italic mb-2">
-                "El programa de becas cambió mi vida. Ahora puedo estudiar y seguir conectado con mis raíces, llevando
-                lo mejor de ambos mundos a mi comunidad."
+                &quot;El programa de becas cambió mi vida. Ahora puedo estudiar y seguir conectado con mis raíces, llevando
+                lo mejor de ambos mundos a mi comunidad.&quot;
               </p>
               <p className="font-semibold">Carlos Tupac</p>
               <p className="text-sm text-muted-foreground">Comunidad Quechua</p>
