@@ -1,7 +1,7 @@
-import Image from "next/image";
-import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
-import { Heart, Users, Target, Globe, ArrowRight } from "lucide-react";
+import Image from "next/image"
+import { Button } from "@/components/ui/button"
+import { Card } from "@/components/ui/card"
+import { Heart, Users, Target, Globe, ArrowRight } from "lucide-react"
 
 export default function DesdeMiRaiz() {
   return (
