@@ -7,7 +7,7 @@ import { Heart, Coffee, BookOpen, Home, Users } from "lucide-react"
 
 export default function DonarPage() {
   return (
-    <main className="min-h-screen py-16">
+    <main className="min-h-screen pt-16">
       {/* Hero Section */}
       <section className="container mx-auto px-4 text-center max-w-3xl mb-16">
         <h1 className="text-4xl md:text-5xl font-bold mb-6">Tu Apoyo Hace la Diferencia</h1>
@@ -17,7 +17,7 @@ export default function DonarPage() {
         </p>
         <div className="relative h-[300px] rounded-lg overflow-hidden mb-8">
           <Image
-            src="/placeholder.svg?height=300&width=800"
+            src="/donate/taller-cultural.jpg"
             alt="Niños en un taller cultural"
             fill
             className="object-cover"
@@ -98,10 +98,6 @@ export default function DonarPage() {
               <Heart className="mr-2 h-5 w-5" />
               Donar ahora con PayPal
             </Button>
-
-            <p className="mt-4 text-sm text-muted-foreground">
-              También puedes elegir otro monto en la página de PayPal
-            </p>
           </div>
         </div>
       </section>
@@ -113,7 +109,7 @@ export default function DonarPage() {
         <div className="bg-white rounded-lg p-6 shadow-sm border mb-6">
           <div className="flex items-start gap-4">
             <div className="relative w-16 h-16 rounded-full overflow-hidden flex-shrink-0">
-              <Image src="/placeholder.svg?height=64&width=64" alt="Testimonio" fill className="object-cover" />
+              <Image src="/donate/testimonio1.jpg" alt="Testimonio" fill className="object-cover" />
             </div>
             <div>
               <p className="italic mb-2">
@@ -129,7 +125,7 @@ export default function DonarPage() {
         <div className="bg-white rounded-lg p-6 shadow-sm border">
           <div className="flex items-start gap-4">
             <div className="relative w-16 h-16 rounded-full overflow-hidden flex-shrink-0">
-              <Image src="/placeholder.svg?height=64&width=64" alt="Testimonio" fill className="object-cover" />
+              <Image src="/donate/testimonio2.jpg" alt="Testimonio" fill className="object-cover" />
             </div>
             <div>
               <p className="italic mb-2">
