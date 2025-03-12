@@ -59,7 +59,7 @@ const Footer = () => {
               <Image 
                 src={logo}
                 alt="Logo Fundación Desde Mi Raíz"
-                className="w-auto h-[120px] object-contain md:h-[80px]"
+                className="w-auto h-[120px] object-contain md:h-[80px] brightness-0 invert"
                 width={100}
                 height={120}
                 priority

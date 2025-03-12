@@ -10,7 +10,7 @@ export default function DesdeMiRaiz() {
   return (
     <main className="min-h-screen">
       <Hero />
-      {/* Hero Section - Misión y Visión */}
+      {/* Hero Section - Misión */}
       <section className="py-16">
       {/* Main Heading */}
       <div className="container mx-auto px-4 mb-12">
@@ -22,47 +22,53 @@ export default function DesdeMiRaiz() {
         </p>
       </div>
 
-      {/* Mission & Vision Cards */}
+      {/* Mission Card */}
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-2 gap-8">
-          {/* Mission Card */}
-          <div className="bg-gray-50 p-8 rounded-lg relative overflow-hidden shadow-sm border border-gray-100">
-            <div className="absolute left-0 top-0 h-full w-1 bg-green-600"></div>
-            <h3 className="text-xl font-medium mb-4 text-gray-800">Misión</h3>
-            <p className="text-gray-700 leading-relaxed">
-              Transformamos comunidades indígenas a través de programas educativos que preservan el conocimiento ancestral, fortalecen la identidad cultural y empoderan a los jóvenes mediante el arte, la cultura y el diálogo intercultural.
-            </p>
-          </div>
-
-          {/* Vision Card */}
-          <div className="bg-gray-50 p-8 rounded-lg relative overflow-hidden shadow-sm border border-gray-100">
-            <div className="absolute left-0 top-0 h-full w-1 bg-blue-500"></div>
-            <h3 className="text-xl font-medium mb-4 text-gray-800">Visión</h3>
-            <p className="text-gray-700 leading-relaxed">
-              Ser el puente que conecta la sabiduría ancestral con las oportunidades del mundo contemporáneo, creando espacios donde las comunidades indígenas florecen con dignidad y sus raíces se honran y celebran.
-            </p>
+        <div className="flex justify-center">
+          <div className="bg-white p-10 rounded-xl relative overflow-hidden shadow-lg border-none max-w-4xl hover:shadow-xl transition-shadow duration-300">
+            <div className="space-y-6">
+              <div className="flex items-center gap-3 mb-6">
+                <h3 className="text-2xl font-semibold text-gray-800">Misión</h3>
+                <div className="flex-1 h-px bg-gray-200"></div>
+              </div>
+              <p className="text-gray-700 leading-relaxed text-lg">
+                Tenemos como propósito liderar una transformación social significativa al unir a las comunidades a través del poder del arte, la cultura y la música. 
+              </p>
+              <p className="text-gray-700 leading-relaxed text-lg">
+                Fomentamos la participación y la cooperación entre todos los sectores de la sociedad, con un enfoque especial en aquellas personas que enfrentan barreras económicas, sociales, culturales, físicas o emocionales. 
+              </p>
+              <p className="text-gray-700 leading-relaxed text-lg">
+                Promovemos el desarrollo humano, creando espacios inclusivos donde las personas en situación de vulnerabilidad puedan descubrir su potencial, compartir sus talentos y contribuir al desarrollo colectivo a través de programas que promueven la creatividad, el esfuerzo conjunto y el empoderamiento, trabajamos para construir una sociedad más empática, solidaria y resiliente, capaz de enfrentar cualquier desafío con unidad y esperanza.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
       {/* Valores */}
-      <section className="py-20 bg-[#959d98]/10" id="values">
+      <section className="py-24 bg-gradient-to-b from-white to-[#959d98]/10" id="values">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-10">Nuestros Valores</h2>
-          <p className="max-w-6xl mx-auto text-center my-12">
-              El amor, al igual que un árbol, no surge de la nada; Necesita una base sólida para crecer, florecer y res.
-              La compasión no es solo un sentimiento humano; la naturaleza la expresa de manera poderosa. los árboles se 
-              comunican a través de sus raíces sosteniendo a quienes lo necesitan . En el bosque, los árboles no compiten
-              por imponerse unos sobre otros; en cambio, crecen respetando los límites de sus vecinos. Sus ramas no se 
-              entrelazan de manera agresiva, sino que dejan espacio para que cada uno reciba su propia luz. De la misma 
-              manera, el respeto en nuestras vidas implica dar espacio al otro sin invadir, reconocer sin imponer y 
-              convivir sin opacar . Cada árbol majestuoso comienza siendo solo una semilla enterrada en la oscuridad de 
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <h2 className="text-4xl font-bold text-gray-800 mb-6">Nuestros Valores</h2>
+            <p className="text-lg text-gray-600 leading-relaxed">
+              El amor, al igual que un árbol, no surge de la nada; necesita una base sólida para crecer y florecer. 
+              La compasión no es solo un sentimiento humano; la naturaleza la expresa de manera poderosa. Los árboles se 
+              comunican a través de sus raíces, sosteniendo a quienes lo necesitan.
+            </p>
+            <p className="text-lg text-gray-600 leading-relaxed mt-4">
+              En el bosque, los árboles no compiten por imponerse unos sobre otros; en cambio, crecen respetando los límites 
+              de sus vecinos. Sus ramas no se entrelazan de manera agresiva, sino que dejan espacio para que cada uno reciba su propia luz.
+            </p>
+            <p className="text-lg text-gray-600 leading-relaxed mt-4">
+              De la misma manera, el respeto en nuestras vidas implica dar espacio al otro sin invadir, reconocer sin imponer y 
+              convivir sin opacar. Cada árbol majestuoso comienza siendo solo una semilla enterrada en la oscuridad de 
               la tierra. Sin embargo, dentro de ella yace la promesa de la vida, esperando el momento adecuado para 
               brotar. Así es la esperanza: invisible en los momentos difíciles, pero siempre presente, lista para florecer 
-              cuando se le da el cuidado necesario .
+              cuando se le da el cuidado necesario.
             </p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
                 icon: Heart,
@@ -85,45 +91,66 @@ export default function DesdeMiRaiz() {
                 description: "Promovemos prácticas que beneficien tanto a las comunidades como al medio ambiente.",
               },
             ].map((valor, index) => (
-              <Card key={index} className="p-6 text-center hover:shadow-lg transition-shadow">
-                <valor.icon className="w-12 h-12 mx-auto mb-4 text-[#14587f]" />
-                <h3 className="text-xl font-semibold mb-2">{valor.title}</h3>
-                <p className="text-muted-foreground">{valor.description}</p>
+              <Card key={index} className="group p-8 text-center hover:shadow-xl transition-all duration-300 border-none bg-white/80 backdrop-blur-sm">
+                <div className="relative w-16 h-16 mx-auto mb-6">
+                  <div className="absolute inset-0 bg-[#14587f]/10 rounded-xl transform -rotate-6 transition-transform group-hover:rotate-0"></div>
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <valor.icon className="w-8 h-8 text-[#14587f] transform transition-transform group-hover:scale-110" />
+                  </div>
+                </div>
+                <h3 className="text-2xl font-semibold mb-4 text-gray-800">{valor.title}</h3>
+                <p className="text-gray-600 leading-relaxed">{valor.description}</p>
               </Card>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Fundador */}
-      <section className="py-20" id="founder">
+      {/* Fundadora */}
+      <section className="py-24 bg-gradient-to-b from-[#959d98]/10 to-white" id="founder">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="relative h-[300px] md:h-[600px] w-full md:w-[400px] rounded-lg overflow-hidden mx-auto">
-              <Image 
-                src="/fundadora.png" 
-                alt="Fundador" 
-                fill 
-                className="object-cover object-top" 
-              />
+          <div className="grid md:grid-cols-2 gap-16 items-center">
+            <div className="relative group">
+              <div className="absolute inset-0 bg-[#14587f]/10 rounded-2xl transform rotate-6 transition-transform group-hover:rotate-0"></div>
+              <div className="relative h-[400px] md:h-[600px] w-full rounded-2xl overflow-hidden shadow-xl">
+                <Image 
+                  src="/fundadora.png" 
+                  alt="Diana Martínez - Fundadora de Desde Mi Raíz" 
+                  fill 
+                  className="object-cover object-top transition-transform duration-500 group-hover:scale-105" 
+                  priority
+                />
+              </div>
             </div>
-            <div className="space-y-6">
-              <h2 className="text-3xl font-bold">Nuestra Fundadora</h2>
-              <p className="text-xl text-muted-foreground">Diana Martínez</p>
-              <p className="text-muted-foreground">
-                Con más de 20 años de experiencia trabajando con comunidades indígenas, Carlos fundó Desde Mi Raíz con
-                la visión de crear un puente entre la sabiduría ancestral y las oportunidades del mundo moderno.
-              </p>
-              <p className="text-muted-foreground">
-                Su trabajo ha impactado positivamente a más de 50 comunidades en toda Latinoamérica, estableciendo
-                programas educativos que respetan y preservan las tradiciones locales.
-              </p>
-              <Button variant="outline" className="mt-4" asChild>
-                <Link href="/about/founder">
-                  Conoce más sobre su historia
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Link>
-              </Button>
+            <div className="space-y-8">
+              <div>
+                <h4 className="text-[#14587f] font-medium mb-2">Nuestra Fundadora</h4>
+                <h2 className="text-4xl font-bold text-gray-800 mb-4">Diana Martínez</h2>
+                <div className="h-1 w-20 bg-[#14587f]/20 rounded-full"></div>
+              </div>
+              <div className="space-y-6">
+                <p className="text-lg text-gray-600 leading-relaxed">
+                  Con más de 20 años de experiencia trabajando con comunidades indígenas, Diana fundó Desde Mi Raíz con
+                  la visión de crear un puente entre la sabiduría ancestral y las oportunidades del mundo moderno.
+                </p>
+                <p className="text-lg text-gray-600 leading-relaxed">
+                  Su trabajo ha impactado positivamente a más de 50 comunidades en toda Latinoamérica, estableciendo
+                  programas educativos que respetan y preservan las tradiciones locales.
+                </p>
+                <div className="pt-4">
+                  <Button 
+                    variant="outline" 
+                    className="group relative overflow-hidden bg-transparent border-2 border-[#14587f] text-[#14587f] hover:text-white transition-colors duration-300"
+                    asChild
+                  >
+                    <Link href="/about/founder" className="flex items-center gap-2 py-6 px-8">
+                      <span className="relative z-10">Conoce más sobre su historia</span>
+                      <ArrowRight className="w-5 h-5 relative z-10 transition-transform group-hover:translate-x-1" />
+                      <div className="absolute inset-0 bg-[#14587f] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300"></div>
+                    </Link>
+                  </Button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
