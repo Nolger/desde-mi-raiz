@@ -4,8 +4,7 @@
       { "id": 2, "name": "Desde mi raíz", "href": "/", "hideInMenu": true },
       { "id": 3, "name": "Que hacemos", "href": "/what-we-do" },
       { "id": 4, "name": "Programate", "href": "/programs" },
-      { "id": 5, "name": "Fundadora", "href": "/about/founder" },
-      { "id": 6, "name": "Donar", "href": "/donate" }
+      { "id": 5, "name": "Donar", "href": "/donate" }
     ],
     "desktopNavItems": [
       { 
@@ -19,9 +18,10 @@
         "href": "/",
         "hideInMenu": true,
         "dropdown": [
-          { "id": "about-1", "name": "Misión", "href": "/about#mission" },
-          { "id": "about-2", "name": "Valores", "href": "/about#values" },
-          { "id": "about-3", "name": "Fundador", "href": "/about#founder" }
+          { "id": "about-1", "name": "Misión", "href": "/#mission" },
+          { "id": "about-2", "name": "Valores", "href": "/#values" },
+          { "id": "about-3", "name": "Fundadora", "href": "/#founder" },
+          { "id": "about-4", "name": "Patrocinadores", "href": "/#sponsors" }
         ]
       },
       { 
@@ -29,22 +29,21 @@
         "name": "Que hacemos", 
         "href": "/what-we-do",
         "dropdown": [
-          { "id": "work-1", "name": "Raices que conectan", "href": "#" },
-          { "id": "work-2", "name": "Casos de Éxito", "href": "#" },
-          { "id": "work-3", "name": "Publicaciones", "href": "#" }
+          { "id": "work-1", "name": "Raíces que conectan", "href": "/what-we-do#raices" },
+          { "id": "work-2", "name": "Arbideia", "href": "/what-we-do#arbideia" },
+          { "id": "work-3", "name": "Ralegria", "href": "/what-we-do#ralegria" },
+          { "id": "work-4", "name": "Rampiza", "href": "/what-we-do#ramipza" }
         ]
       },
       { 
         "id": 3, 
         "name": "Programate", 
-        "href": "/programs",
-        "dropdown": [
-          { "id": "proj-1", "name": "Proyecto 2024", "href": "#" },
-          { "id": "proj-2", "name": "Proyecto 2023", "href": "#" },
-          { "id": "proj-3", "name": "Archivo", "href": "#" }
-        ]
+        "href": "/programs"
       },
-      { "id": 4, "name": "Fundadora", "href": "/about/founder" },
-      { "id": 5, "name": "Donar", "href": "/donate" }
+      { 
+        "id": 4, 
+        "name": "Donar", 
+        "href": "/donate"
+      }
     ]
   } 

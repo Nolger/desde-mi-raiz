@@ -1,7 +1,7 @@
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
-import { Heart, Users, Target, Globe, ArrowRight } from "lucide-react"
+import { Heart, Sprout, Flower2, ArrowRight } from "lucide-react"
 import Link from "next/link"
 import Cta from "@/app/home/Cta"
 import Hero from "@/app/home/Hero"
@@ -11,7 +11,7 @@ export default function DesdeMiRaiz() {
     <main className="min-h-screen">
       <Hero />
       {/* Hero Section - Misión */}
-      <section className="py-16">
+      <section className="py-16" id="mission">
       {/* Main Heading */}
       <div className="container mx-auto px-4 mb-12">
         <h2 className="text-3xl md:text-4xl font-medium text-center mb-6 text-gray-800">
@@ -51,55 +51,67 @@ export default function DesdeMiRaiz() {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-4xl font-bold text-gray-800 mb-6">Nuestros Valores</h2>
-            <p className="text-lg text-gray-600 leading-relaxed">
-              El amor, al igual que un árbol, no surge de la nada; necesita una base sólida para crecer y florecer. 
-              La compasión no es solo un sentimiento humano; la naturaleza la expresa de manera poderosa. Los árboles se 
-              comunican a través de sus raíces, sosteniendo a quienes lo necesitan.
-            </p>
-            <p className="text-lg text-gray-600 leading-relaxed mt-4">
-              En el bosque, los árboles no compiten por imponerse unos sobre otros; en cambio, crecen respetando los límites 
-              de sus vecinos. Sus ramas no se entrelazan de manera agresiva, sino que dejan espacio para que cada uno reciba su propia luz.
-            </p>
-            <p className="text-lg text-gray-600 leading-relaxed mt-4">
-              De la misma manera, el respeto en nuestras vidas implica dar espacio al otro sin invadir, reconocer sin imponer y 
-              convivir sin opacar. Cada árbol majestuoso comienza siendo solo una semilla enterrada en la oscuridad de 
-              la tierra. Sin embargo, dentro de ella yace la promesa de la vida, esperando el momento adecuado para 
-              brotar. Así es la esperanza: invisible en los momentos difíciles, pero siempre presente, lista para florecer 
-              cuando se le da el cuidado necesario.
-            </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
                 icon: Heart,
+                title: "Amor",
+                description: "El amor, al igual que un árbol, no surge de la nada; necesita una base sólida para crecer, florecer y resistir. En Desde mi Raíz, creemos que el amor verdadero se refleja en un compromiso constante que va más allá de las acciones temporales. Por eso, acompañamos a las comunidades de manera cercana y sostenida, fortaleciendo su autonomía y reconociendo su identidad. Cada proyecto educativo o artístico es una semilla de confianza y esperanza que, con el tiempo, se transforma en nuevas oportunidades de crecimiento",
+              },
+              {
+                icon: Sprout,
+                title: "Compasión",
+                description: "La compasión no es solo un sentimiento humano; la naturaleza la expresa de manera poderosa. Los árboles se comunican a través de sus raíces, sosteniendo a quienes lo necesitan. Así entendemos la compasión en Desde mi Raíz como un compromiso vivo que nos une y nos fortalece, porque no solo acompañamos procesos, también sembramos esperanza y construimos redes de apoyo que crecen con cada proyecto. Porque cuando practicamos una compasión auténtica, no dejamos a nadie atrás; Extendemos nuestras raíces para sostenernos mutuamente y hacer que el cambio perdure.",
+              },
+              {
+                icon: Flower2,
                 title: "Respeto",
-                description: "Honramos las tradiciones y el conocimiento ancestral de cada comunidad.",
+                description: "En el bosque, los árboles no compiten por imponerse unos sobre otros; en cambio, crecen respetando los límites de sus vecinos. Sus ramas no se entrelazan de manera agresiva, sino que dejan espacio para que cada uno reciba su propia luz. De la misma manera, el respeto en nuestras vidas implica dar espacio al otro sin invadir, reconocer sin imponer y convivir sin opacar. En Desde mi Raíz, creemos que este El respeto es la semilla que fortalece las comunidades y permite que todos crezcan con dignidad.",
               },
               {
-                icon: Users,
-                title: "Comunidad",
-                description: "Trabajamos juntos para fortalecer los lazos comunitarios y culturales.",
-              },
-              {
-                icon: Target,
-                title: "Innovación",
-                description: "Buscamos soluciones creativas que combinen lo tradicional con lo moderno.",
-              },
-              {
-                icon: Globe,
-                title: "Sostenibilidad",
-                description: "Promovemos prácticas que beneficien tanto a las comunidades como al medio ambiente.",
+                icon: Sprout,
+                title: "Esperanza",
+                description: "Cada árbol majestuoso comienza siendo solo una semilla enterrada en la oscuridad de la tierra. Sin embargo, dentro de ella yace la promesa de la vida, esperando el momento adecuado para brotar. Así es la esperanza: invisible en los momentos difíciles, pero siempre presente, lista para florecer cuando se le da el cuidado necesario. En Desde mi Raíz, creemos que, cuando se cultiva con compromiso y dedicación, la esperanza tiene el poder de transformar vidas por eso aunque nos enfrentamos a desafíos constantes, seguimos adelante con el compromiso de acompañar, crear alianzas y cuidar cada semilla plantada.",
               },
             ].map((valor, index) => (
-              <Card key={index} className="group p-8 text-center hover:shadow-xl transition-all duration-300 border-none bg-white/80 backdrop-blur-sm">
-                <div className="relative w-16 h-16 mx-auto mb-6">
-                  <div className="absolute inset-0 bg-[#14587f]/10 rounded-xl transform -rotate-6 transition-transform group-hover:rotate-0"></div>
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <valor.icon className="w-8 h-8 text-[#14587f] transform transition-transform group-hover:scale-110" />
+              <Card key={index} className="group overflow-hidden hover:shadow-xl transition-all duration-300 border-none bg-white/80 backdrop-blur-sm">
+                <div className="relative h-full">
+                  {/* Fondo decorativo */}
+                  <div className="absolute top-0 right-0 w-32 h-32 bg-[#14587f]/5 rounded-bl-full transform rotate-45"></div>
+                  
+                  {/* Contenido */}
+                  <div className="relative p-6">
+                    {/* Icono */}
+                    <div className="mb-4">
+                      <div className="w-12 h-12 rounded-lg bg-[#14587f]/10 flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300">
+                        <valor.icon className="w-6 h-6 text-[#14587f]" />
+                      </div>
+                    </div>
+                    
+                    {/* Título */}
+                    <h3 className="text-xl font-bold text-gray-800 mb-3">{valor.title}</h3>
+                    
+                    {/* Descripción con scroll */}
+                    <div className="relative">
+                      <div className="prose prose-sm max-h-[280px] overflow-y-auto pr-4 text-gray-600 leading-relaxed 
+                        [&::-webkit-scrollbar]:w-1.5
+                        [&::-webkit-scrollbar-track]:bg-[#959d98]/10 
+                        [&::-webkit-scrollbar-track]:rounded-full
+                        [&::-webkit-scrollbar-thumb]:bg-[#14587f]/20 
+                        [&::-webkit-scrollbar-thumb]:rounded-full
+                        [&::-webkit-scrollbar-thumb]:border
+                        [&::-webkit-scrollbar-thumb]:border-[#14587f]/10
+                        hover:[&::-webkit-scrollbar-thumb]:bg-[#14587f]/30
+                        group-hover:[&::-webkit-scrollbar-thumb]:bg-[#14587f]/30
+                        transition-colors">
+                        <p>{valor.description}</p>
+                      </div>
+                      {/* Degradado al final del texto */}
+                      <div className="absolute bottom-0 left-0 right-4 h-8 bg-gradient-to-t from-white/90 to-transparent pointer-events-none"></div>
+                    </div>
                   </div>
                 </div>
-                <h3 className="text-2xl font-semibold mb-4 text-gray-800">{valor.title}</h3>
-                <p className="text-gray-600 leading-relaxed">{valor.description}</p>
               </Card>
             ))}
           </div>
@@ -157,7 +169,7 @@ export default function DesdeMiRaiz() {
       </section>
 
       {/* Patrocinadores */}
-      <section className="py-20 bg-[#959d98]/10">
+      <section className="py-20 bg-[#959d98]/10" id="sponsors">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Empresas que nos Apoyan</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
