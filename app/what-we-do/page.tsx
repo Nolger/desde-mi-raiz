@@ -32,13 +32,13 @@ export default function QueHacemos() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-[#14587f] mb-8">RAÍCES QUE CONECTAN</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {news.raices.map((item) => (
+            {news.raices.slice(-3).map((item) => (
               <NewsCard key={item.id} {...item} />
             ))}
           </div>
           <div className="mt-8 text-center">
             <Link
-              href="/noticias/raices"
+              href="/what-we-do/raices"
               className="inline-flex items-center gap-2 bg-[#14587f] text-white hover:bg-[#1a6a9d] px-6 py-3 rounded-md transition-colors"
             >
               Ver más noticias
@@ -55,13 +55,13 @@ export default function QueHacemos() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-[#14587f] mb-8">ARBIDEIA</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {news.arbideia.map((item) => (
+            {news.arbideia.slice(-3).map((item) => (
               <NewsCard key={item.id} {...item} />
             ))}
           </div>
           <div className="mt-8 text-center">
             <Link
-              href="/noticias/arbideia"
+              href="/what-we-do/arbideia"
               className="inline-flex items-center gap-2 bg-[#14587f] text-white hover:bg-[#1a6a9d] px-6 py-3 rounded-md transition-colors"
             >
               Ver más noticias
@@ -78,13 +78,13 @@ export default function QueHacemos() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-[#14587f] mb-8">RALEGRIA</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {news.ralegria.map((item) => (
+            {news.ralegria.slice(-3).map((item) => (
               <NewsCard key={item.id} {...item} />
             ))}
           </div>
           <div className="mt-8 text-center">
             <Link
-              href="/noticias/ralegria"
+              href="/what-we-do/ralegria"
               className="inline-flex items-center gap-2 bg-[#14587f] text-white hover:bg-[#1a6a9d] px-6 py-3 rounded-md transition-colors"
             >
               Ver más noticias
@@ -101,13 +101,13 @@ export default function QueHacemos() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-[#14587f] mb-8">RAMIPZA</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {news.ramipza.map((item) => (
+            {news.ramipza.slice(-3).map((item) => (
               <NewsCard key={item.id} {...item} />
             ))}
           </div>
           <div className="mt-8 text-center">
             <Link
-              href="/noticias/ramipza"
+              href="/what-we-do/ramipza"
               className="inline-flex items-center gap-2 bg-[#14587f] text-white hover:bg-[#1a6a9d] px-6 py-3 rounded-md transition-colors"
             >
               Ver más noticias

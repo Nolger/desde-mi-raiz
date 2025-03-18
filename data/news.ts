@@ -26,6 +26,33 @@ export const news = {
       date: "5 Mar 2024",
       category: "Raíces que conectan",
       href: "/noticias/encuentro-saberes"
+    },
+    {
+      id: 4,
+      title: "Exposición de arte indígena contemporáneo",
+      description: "Artistas indígenas presentan obras que fusionan técnicas tradicionales con expresiones modernas, mostrando la evolución del arte indígena.",
+      imageUrl: "/hero/img4.jpg",
+      date: "20 Mar 2024",
+      category: "Raíces que conectan",
+      href: "/noticias/exposicion-arte"
+    },
+    {
+      id: 5,
+      title: "Taller de preservación de lenguas originarias",
+      description: "Comunidades se reúnen para compartir estrategias y metodologías en la enseñanza y preservación de sus lenguas maternas.",
+      imageUrl: "/hero/img5.jpg",
+      date: "18 Mar 2024",
+      category: "Raíces que conectan",
+      href: "/noticias/taller-lenguas"
+    },
+    {
+      id: 6,
+      title: "Ceremonia de intercambio de semillas tradicionales",
+      description: "Agricultores indígenas comparten semillas nativas y conocimientos sobre cultivos tradicionales, fortaleciendo la soberanía alimentaria.",
+      imageUrl: "/hero/img6.jpg",
+      date: "12 Mar 2024",
+      category: "Raíces que conectan",
+      href: "/noticias/intercambio-semillas"
     }
   ],
   arbideia: [
@@ -55,6 +82,33 @@ export const news = {
       date: "1 Mar 2024",
       category: "Arbideia",
       href: "/noticias/centro-intercultural"
+    },
+    {
+      id: 4,
+      title: "Programa de mentoría para jóvenes líderes indígenas",
+      description: "Jóvenes indígenas reciben capacitación en liderazgo comunitario, combinando saberes ancestrales con herramientas de gestión moderna.",
+      imageUrl: "/hero/img1.jpeg",
+      date: "22 Mar 2024",
+      category: "Arbideia",
+      href: "/noticias/programa-mentoria"
+    },
+    {
+      id: 5,
+      title: "Taller de emprendimiento cultural",
+      description: "Comunidades aprenden a desarrollar proyectos económicos sostenibles basados en sus tradiciones y recursos culturales.",
+      imageUrl: "/hero/img2.jpeg",
+      date: "19 Mar 2024",
+      category: "Arbideia",
+      href: "/noticias/taller-emprendimiento"
+    },
+    {
+      id: 6,
+      title: "Diplomado en educación intercultural",
+      description: "Educadores indígenas y no indígenas participan en programa de formación que integra metodologías tradicionales y modernas.",
+      imageUrl: "/hero/img3.jpeg",
+      date: "15 Mar 2024",
+      category: "Arbideia",
+      href: "/noticias/diplomado-educacion"
     }
   ],
   ralegria: [
@@ -84,6 +138,33 @@ export const news = {
       date: "2 Mar 2024",
       category: "Ralegria",
       href: "/noticias/ceremonia-gratitud"
+    },
+    {
+      id: 4,
+      title: "Encuentro de sanadores tradicionales",
+      description: "Practicantes de medicina ancestral comparten conocimientos y experiencias sobre sanación holística y bienestar comunitario.",
+      imageUrl: "/hero/img2.jpeg",
+      date: "25 Mar 2024",
+      category: "Ralegria",
+      href: "/noticias/encuentro-sanadores"
+    },
+    {
+      id: 5,
+      title: "Taller de danza terapéutica ancestral",
+      description: "Comunidades exploran el poder curativo de las danzas tradicionales y su impacto en el bienestar emocional y espiritual.",
+      imageUrl: "/hero/img3.jpeg",
+      date: "21 Mar 2024",
+      category: "Ralegria",
+      href: "/noticias/taller-danza"
+    },
+    {
+      id: 6,
+      title: "Celebración del ciclo lunar y bienestar comunitario",
+      description: "La comunidad se reúne para honrar los ciclos naturales y fortalecer los lazos comunitarios a través de ceremonias tradicionales.",
+      imageUrl: "/hero/img4.jpg",
+      date: "17 Mar 2024",
+      category: "Ralegria",
+      href: "/noticias/celebracion-lunar"
     }
   ],
   ramipza: [
@@ -113,6 +194,33 @@ export const news = {
       date: "3 Mar 2024",
       category: "RAMIPZA",
       href: "/noticias/mural-colaborativo"
+    },
+    {
+      id: 4,
+      title: "Foro de diálogo intercultural por la paz",
+      description: "Representantes de diferentes comunidades indígenas y no indígenas se reúnen para discutir estrategias de convivencia pacífica.",
+      imageUrl: "/hero/img5.jpg",
+      date: "28 Mar 2024",
+      category: "RAMIPZA",
+      href: "/noticias/foro-dialogo"
+    },
+    {
+      id: 5,
+      title: "Taller de resolución de conflictos desde la cosmovisión indígena",
+      description: "Comunidades aprenden técnicas tradicionales de mediación y diálogo basadas en sus valores ancestrales.",
+      imageUrl: "/hero/img6.jpg",
+      date: "24 Mar 2024",
+      category: "RAMIPZA",
+      href: "/noticias/taller-resolucion"
+    },
+    {
+      id: 6,
+      title: "Ceremonia de reconciliación intercomunitaria",
+      description: "Comunidades vecinas celebran un ritual tradicional de reconciliación, fortaleciendo los lazos de paz y cooperación.",
+      imageUrl: "/hero/img1.jpeg",
+      date: "20 Mar 2024",
+      category: "RAMIPZA",
+      href: "/noticias/ceremonia-reconciliacion"
     }
   ]
 }; 

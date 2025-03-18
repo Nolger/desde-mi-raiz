@@ -1,0 +1,170 @@
+[
+    {
+      "fecha": "2025-06-09",
+      "nombre": "Eric Michaels",
+      "hora": "8 PM",
+      "descripcion": "Show en vivo con Eric Michaels",
+      "tags": ["CULTURA", "COMUNIDAD"]
+    },
+    {
+      "fecha": "2025-06-13",
+      "nombre": "Total Maximal",
+      "hora": "8 PM",
+      "descripcion": "Presentación de Total Maximal",
+      "tags": ["CULTURA", "COMUNIDAD"]
+    },
+    {
+      "fecha": "2025-06-19",
+      "nombre": "Max Solo",
+      "hora": "8 PM",
+      "descripcion": "Show en solitario de Max",
+      "tags": ["CULTURA", "COMUNIDAD"]
+    },
+    {
+      "fecha": "2025-06-20",
+      "nombre": "Blue Boys",
+      "hora": "8 PM",
+      "descripcion": "Presentación de Blue Boys",
+      "tags": ["CULTURA", "COMUNIDAD"]
+    },
+    {
+      "fecha": "2025-06-24",
+      "nombre": "Girls Universe",
+      "hora": "8 PM",
+      "descripcion": "Show especial de Girls Universe",
+      "tags": ["CULTURA", "COMUNIDAD"]
+    },
+    {
+      "fecha": "2024-03-15",
+      "nombre": "Concierto de Jazz",
+      "hora": "8:00 PM",
+      "descripcion": "Una noche de jazz con los mejores músicos locales",
+      "tags": ["CULTURA", "COMUNIDAD"]
+    },
+    {
+      "fecha": "2024-03-20",
+      "nombre": "Taller de Reciclaje",
+      "hora": "2:00 PM",
+      "descripcion": "Aprende técnicas de reciclaje y cuidado del medio ambiente",
+      "tags": ["RECICLAJE", "EDUCACION"]
+    },
+    {
+      "fecha": "2024-03-25",
+      "nombre": "Festival Wayuu",
+      "hora": "10:00 AM",
+      "descripcion": "Celebración de la cultura Wayuu con danzas y tradiciones",
+      "tags": ["WAYUU", "CULTURA", "COMUNIDAD"]
+    },
+    {
+      "fecha": "2024-04-05",
+      "nombre": "Reunión AA",
+      "hora": "7:00 PM",
+      "descripcion": "Grupo de apoyo para personas en recuperación",
+      "tags": ["ALCOHOLICOS ANONIMOS", "SALUD"]
+    },
+    {
+      "fecha": "2024-04-10",
+      "nombre": "Marcha del Orgullo",
+      "hora": "3:00 PM",
+      "descripcion": "Marcha por los derechos LGBT+",
+      "tags": ["LGBT", "COMUNIDAD"]
+    },
+    {
+      "fecha": "2024-04-15",
+      "nombre": "Feria de Salud",
+      "hora": "9:00 AM",
+      "descripcion": "Servicios de salud gratuitos para la comunidad",
+      "tags": ["SALUD", "BENEFICENCIA"]
+    },
+    {
+      "fecha": "2024-05-01",
+      "nombre": "Taller de Emprendimiento",
+      "hora": "10:00 AM",
+      "descripcion": "Aprende a crear tu propio negocio",
+      "tags": ["EDUCACION", "JUVENTUD"]
+    },
+    {
+      "fecha": "2024-05-10",
+      "nombre": "Festival de Arte LGBT+",
+      "hora": "4:00 PM",
+      "descripcion": "Exhibición de arte y cultura LGBT+",
+      "tags": ["LGBT", "CULTURA"]
+    },
+    {
+      "fecha": "2024-05-20",
+      "nombre": "Jornada de Limpieza",
+      "hora": "8:00 AM",
+      "descripcion": "Limpieza comunitaria y reciclaje",
+      "tags": ["RECICLAJE", "COMUNIDAD"]
+    },
+    {
+      "fecha": "2024-06-05",
+      "nombre": "Encuentro Wayuu",
+      "hora": "11:00 AM",
+      "descripcion": "Encuentro cultural de la comunidad Wayuu",
+      "tags": ["WAYUU", "CULTURA"]
+    },
+    {
+      "fecha": "2024-06-15",
+      "nombre": "Grupo de Apoyo AA",
+      "hora": "6:00 PM",
+      "descripcion": "Sesión de apoyo para personas en recuperación",
+      "tags": ["ALCOHOLICOS ANONIMOS", "SALUD"]
+    },
+    {
+      "fecha": "2024-06-25",
+      "nombre": "Feria de Emprendimiento",
+      "hora": "9:00 AM",
+      "descripcion": "Exposición de emprendimientos locales",
+      "tags": ["COMUNIDAD", "JUVENTUD"]
+    },
+    {
+      "fecha": "2024-07-05",
+      "nombre": "Taller de Arte LGBT+",
+      "hora": "2:00 PM",
+      "descripcion": "Taller de expresión artística para la comunidad LGBT+",
+      "tags": ["LGBT", "CULTURA"]
+    },
+    {
+      "fecha": "2024-07-15",
+      "nombre": "Jornada de Salud Mental",
+      "hora": "10:00 AM",
+      "descripcion": "Talleres y charlas sobre salud mental",
+      "tags": ["SALUD", "BENEFICENCIA"]
+    },
+    {
+      "fecha": "2024-08-01",
+      "nombre": "Festival de Reciclaje",
+      "hora": "9:00 AM",
+      "descripcion": "Festival educativo sobre reciclaje y medio ambiente",
+      "tags": ["RECICLADORES", "EDUCACION"]
+    },
+    {
+      "fecha": "2024-08-10",
+      "nombre": "Encuentro Cultural Wayuu",
+      "hora": "11:00 AM",
+      "descripcion": "Celebración de tradiciones Wayuu",
+      "tags": ["WAYUU", "CULTURA"]
+    },
+    {
+      "fecha": "2024-08-20",
+      "nombre": "Grupo de Apoyo AA",
+      "hora": "7:00 PM",
+      "descripcion": "Sesión de apoyo para personas en recuperación",
+      "tags": ["ALCOHOLICOS ANONIMOS", "SALUD"]
+    },
+    {
+      "fecha": "2024-09-05",
+      "nombre": "Marcha por la Diversidad",
+      "hora": "3:00 PM",
+      "descripcion": "Marcha por los derechos y la diversidad",
+      "tags": ["LGBT", "COMUNIDAD"]
+    },
+    {
+      "fecha": "2024-09-15",
+      "nombre": "Feria de Servicios",
+      "hora": "9:00 AM",
+      "descripcion": "Feria de servicios gratuitos para la comunidad",
+      "tags": ["BENEFICENCIA", "COMUNIDAD"]
+    }
+]

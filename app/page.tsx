@@ -28,7 +28,7 @@ export default function DesdeMiRaiz() {
           <div className="bg-white p-10 rounded-xl relative overflow-hidden shadow-lg border-none max-w-4xl hover:shadow-xl transition-shadow duration-300">
             <div className="space-y-6">
               <div className="flex items-center gap-3 mb-6">
-                <h3 className="text-2xl font-semibold text-gray-800">Misión</h3>
+                <h3 className="text-2xl font-semibold text-gray-800">Nuestra Misión</h3>
                 <div className="flex-1 h-px bg-gray-200"></div>
               </div>
               <p className="text-gray-700 leading-relaxed text-lg">
